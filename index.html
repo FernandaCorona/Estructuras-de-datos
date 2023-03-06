@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>C79</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <center>
+        <h3 style="margin-top: 20px; margin-bottom: 20px; ">
+            Lista de alumnos en mi clase
+        </h3>
+
+        <div>
+            <span>1</span>
+            <input type="text" placeholder="Nombre del alumno" id="nombre_alumno_1">
+            <br>
+
+            <span>2</span>
+            <input type="text" placeholder="Nombre del alumno" id="nombre_alumno_2">
+            <br>
+
+            <span>3</span>
+            <input type="text" placeholder="Nombre del alumno" id="nombre_alumno_3">
+            <br>
+
+            <span>4</span>
+            <input type="text" placeholder="Nombre del alumno" id="nombre_alumno_4">
+        </div>
+
+        <button onclick="submit()" id="boton_enviar">
+            Enviar
+        </button>
+
+        <!-- C80: AGREGAR DIV ver_nombre_con_comas -->
+        <div id="ver_nombre_con_comas">
+        </div>
+        
+        <hr>
+        
+        <!-- C80: AGREGAR DIV ver_nombre_sin_comas -->
+        <div id="ver_nombre_sin_comas">
+        </div>
+
+        <div id="ver_nombre" style="font-weight: bold;">
+
+        </div>
+
+        <button onclick="sorting()" id="boton_ordenar">
+            Ordenar
+        </button>
+
+        <!-- ADC ADICIONAL. BOTON PARA ACTUALIZAR -->
+        <br>
+        <button onclick="new_update()">Botón nuevo para actualizar</button>
+    </center>
+
+    <script>
+
+    </script>
+</body>
+
+</html>

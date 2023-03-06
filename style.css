@@ -1,0 +1,14 @@
+input {
+    margin: 10px;
+}
+
+#boton_enviar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#boton_ordenar {
+    display: none;      /* Oculta el botón de ordenar */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
